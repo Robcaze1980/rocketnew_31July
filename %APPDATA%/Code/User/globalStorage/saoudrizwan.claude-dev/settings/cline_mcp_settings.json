@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "github.com/alexander-zuev/supabase-mcp-server": {
+      "command": "C:\\Users\\rob62\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\supabase-mcp-server.exe",
+      "disabled": false,
+      "autoApprove": []
+    },
+    "github.com/supabase-community/supabase-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--read-only",
+        "--project-ref=tmawhooeakzdgykvbxtv"
+      ],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "sbp_5b7ec44ada354a9349e2d73be1c20a917eb1e309"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  },
+  "_lastTouched": "2025-08-06T12:16:42-07:00"
+}
