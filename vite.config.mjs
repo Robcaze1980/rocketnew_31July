@@ -13,7 +13,7 @@ export default defineConfig({
   },
   plugins: [tsconfigPaths(), react(), tagger()],
   server: {
-    port: 4036,
+    port: 4032,
     host: "0.0.0.0",
     strictPort: false,
     proxy: {
